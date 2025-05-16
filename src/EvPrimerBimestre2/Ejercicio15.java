@@ -15,25 +15,27 @@ public class Ejercicio15 {
 		Talle =  inTalle.next();
 		
 		
-		if (Talle.length() > 0) {
-            char caracter = Talle.charAt(0);
+	
+       char talle = Talle.charAt(0);
 		
 		
-		
-		
-		
-		switch(Talle) {
-		case "s" :
+		switch(talle) {
+		case 's':
+		case 'S':
 			
 			System.out.println("Quedan 5 remeras talle S");
 			break;
 		
-		case "m":
+		case 'm':
+		case 'M':
+
 
 			System.out.println("Quedan 2 remeras talle M");
 			break;
 			
-		case "l":
+		case 'l':
+		case 'L':
+
 			System.out.println("No quedan remeras para gordos");
 			break;
 			
@@ -45,10 +47,10 @@ public class Ejercicio15 {
 		
 		
 		 
-		
 	}
 		
-}
+
 	
+
 
 
